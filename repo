@@ -524,7 +524,7 @@ def _Clone(url, local, quiet):
   _SetConfig(local, 'remote.origin.fetch',
                     '+refs/heads/*:refs/remotes/origin/*')
 
-     _Fetch(url, local, 'origin', quiet)
+  _Fetch(url, local, 'origin', quiet)
 def _Verify(cwd, branch, quiet):
   """Verify the branch has been signed by a tag.
   """
